@@ -36,7 +36,7 @@ DISCORD_BOT_TOKEN=your_discord_bot_token
 OPEN_AI_TOKEN=your_openai_api_key
 ```
 
-##Usage
+## Usage
 1. Run the bot
 ```bash
 python chatgpt_discord_bot.py
@@ -47,7 +47,7 @@ python chatgpt_discord_bot.py
 ```
 The bot will reply using OpenAI’s GPT model.
 
-##Notes
+## Notes
 Make sure the bot has the appropriate permissions (message read/send) and MESSAGE CONTENT INTENT is enabled in the Discord Developer Portal.
 
 You can update the OpenAI model or engine in the generate_response() function as needed.
